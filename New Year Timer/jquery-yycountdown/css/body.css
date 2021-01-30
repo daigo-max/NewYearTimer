@@ -1,0 +1,31 @@
+/*全体*/
+body {
+    background: -moz-linear-gradient(top, #FFC778, #FFF);
+    background: -webkit-linear-gradient(top, #FFC778, #FFF);
+    background: linear-gradient(to bottom, #FFC778, #FFF);
+}
+
+/*ヘッダー*/
+.header-logo {
+    display: flex;
+    justify-content: center;
+    height: 4;
+    line-height: 4;
+    font-size: xx-large;
+    font-family: “HGP行書体”, “ＭＳ Ｐ明朝”, “MS PMincho”, serif;
+}
+
+/*画像*/
+.img-section {
+    text-align : center
+}
+
+.img {
+    background-image: url(../img/舐達磨.jpg);
+    width: 70%;
+    height: 600px;
+    background-size: cover;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+}
